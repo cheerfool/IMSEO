@@ -7,35 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64D83DBD1A3D0DB200454701 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64D83DBC1A3D0DB200454701 /* main.cpp */; };
+		64DE5D7A1A3F103000EE4391 /* expMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D6B1A3F103000EE4391 /* expMethod.cpp */; };
+		64DE5D7B1A3F103000EE4391 /* utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D6C1A3F103000EE4391 /* utility.cpp */; };
+		64DE5D7C1A3F103000EE4391 /* Approx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D6E1A3F103000EE4391 /* Approx.cpp */; };
+		64DE5D7D1A3F103000EE4391 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D711A3F103000EE4391 /* main.cpp */; };
+		64DE5D7E1A3F103000EE4391 /* keywordCombine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D741A3F103000EE4391 /* keywordCombine.cpp */; };
+		64DE5D7F1A3F103000EE4391 /* MCSim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D751A3F103000EE4391 /* MCSim.cpp */; };
+		64DE5D801A3F103000EE4391 /* weightedSetCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D761A3F103000EE4391 /* weightedSetCover.cpp */; };
+		64DE5D811A3F103000EE4391 /* scoreGreedy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DE5D781A3F103000EE4391 /* scoreGreedy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		64D83DB71A3D0DB200454701 /* CopyFiles */ = {
+		64D83DB71A3D0DB200454701 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		64D83DB91A3D0DB200454701 /* IM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IM; sourceTree = BUILT_PRODUCTS_DIR; };
-		64D83DBC1A3D0DB200454701 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64DE5D6B1A3F103000EE4391 /* expMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = expMethod.cpp; sourceTree = "<group>"; };
+		64DE5D6C1A3F103000EE4391 /* utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utility.cpp; sourceTree = "<group>"; };
+		64DE5D6D1A3F103000EE4391 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		64DE5D6E1A3F103000EE4391 /* Approx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Approx.cpp; sourceTree = "<group>"; };
+		64DE5D6F1A3F103000EE4391 /* Approx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Approx.h; sourceTree = "<group>"; };
+		64DE5D701A3F103000EE4391 /* weightedSetCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weightedSetCover.h; sourceTree = "<group>"; };
+		64DE5D711A3F103000EE4391 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64DE5D721A3F103000EE4391 /* expMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expMethod.h; sourceTree = "<group>"; };
+		64DE5D731A3F103000EE4391 /* keywordCombine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keywordCombine.h; sourceTree = "<group>"; };
+		64DE5D741A3F103000EE4391 /* keywordCombine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keywordCombine.cpp; sourceTree = "<group>"; };
+		64DE5D751A3F103000EE4391 /* MCSim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCSim.cpp; sourceTree = "<group>"; };
+		64DE5D761A3F103000EE4391 /* weightedSetCover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = weightedSetCover.cpp; sourceTree = "<group>"; };
+		64DE5D771A3F103000EE4391 /* MCSim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSim.h; sourceTree = "<group>"; };
+		64DE5D781A3F103000EE4391 /* scoreGreedy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scoreGreedy.cpp; sourceTree = "<group>"; };
+		64DE5D791A3F103000EE4391 /* scoreGreedy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreGreedy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		64D83DB61A3D0DB200454701 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		64D83DB01A3D0DB200454701 = {
@@ -57,12 +69,36 @@
 		64D83DBB1A3D0DB200454701 /* IM */ = {
 			isa = PBXGroup;
 			children = (
-				64D83DBC1A3D0DB200454701 /* main.cpp */,
+				64DE5D6B1A3F103000EE4391 /* expMethod.cpp */,
+				64DE5D6C1A3F103000EE4391 /* utility.cpp */,
+				64DE5D6D1A3F103000EE4391 /* utility.h */,
+				64DE5D6E1A3F103000EE4391 /* Approx.cpp */,
+				64DE5D6F1A3F103000EE4391 /* Approx.h */,
+				64DE5D701A3F103000EE4391 /* weightedSetCover.h */,
+				64DE5D711A3F103000EE4391 /* main.cpp */,
+				64DE5D721A3F103000EE4391 /* expMethod.h */,
+				64DE5D731A3F103000EE4391 /* keywordCombine.h */,
+				64DE5D741A3F103000EE4391 /* keywordCombine.cpp */,
+				64DE5D751A3F103000EE4391 /* MCSim.cpp */,
+				64DE5D761A3F103000EE4391 /* weightedSetCover.cpp */,
+				64DE5D771A3F103000EE4391 /* MCSim.h */,
+				64DE5D781A3F103000EE4391 /* scoreGreedy.cpp */,
+				64DE5D791A3F103000EE4391 /* scoreGreedy.h */,
 			);
 			path = IM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64DC956F1A3F2B7E00D722E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		64D83DB81A3D0DB200454701 /* IM */ = {
@@ -70,8 +106,8 @@
 			buildConfigurationList = 64D83DC01A3D0DB200454701 /* Build configuration list for PBXNativeTarget "IM" */;
 			buildPhases = (
 				64D83DB51A3D0DB200454701 /* Sources */,
-				64D83DB61A3D0DB200454701 /* Frameworks */,
-				64D83DB71A3D0DB200454701 /* CopyFiles */,
+				64D83DB71A3D0DB200454701 /* Copy Files */,
+				64DC956F1A3F2B7E00D722E5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -118,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D83DBD1A3D0DB200454701 /* main.cpp in Sources */,
+				64DE5D7B1A3F103000EE4391 /* utility.cpp in Sources */,
+				64DE5D7C1A3F103000EE4391 /* Approx.cpp in Sources */,
+				64DE5D7E1A3F103000EE4391 /* keywordCombine.cpp in Sources */,
+				64DE5D801A3F103000EE4391 /* weightedSetCover.cpp in Sources */,
+				64DE5D811A3F103000EE4391 /* scoreGreedy.cpp in Sources */,
+				64DE5D7D1A3F103000EE4391 /* main.cpp in Sources */,
+				64DE5D7A1A3F103000EE4391 /* expMethod.cpp in Sources */,
+				64DE5D7F1A3F103000EE4391 /* MCSim.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +245,13 @@
 		64D83DC11A3D0DB200454701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/jkl/Projects/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jkl/Documents/projects/boost_1_46_1/stage/lib,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/jkl/Projects/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +259,13 @@
 		64D83DC21A3D0DB200454701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/jkl/Projects/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jkl/Documents/projects/boost_1_46_1/stage/lib,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/jkl/Projects/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +289,7 @@
 				64D83DC21A3D0DB200454701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

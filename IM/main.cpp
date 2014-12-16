@@ -13,7 +13,7 @@ int main(int argc, char** argv){
     string dir="/Users/jkl/Courses/CPSC534/example/";
     string graph=dir+"networks";
     string attr=dir+"attributes";
-    string query=dir+"q";
+    string query=dir+"q15-2-4";
     string factors[6]={"SG",graph,"Degree","IRIE",attr,query};
 	//test(argv[1]);
 	//system("pause");

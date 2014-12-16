@@ -30,6 +30,7 @@ void ConstructGraph(string filename, InfGraph& g){
 		g[tar].indegree ++;
 	}
 	infile.close();
+    cout<<"Graph constructed.\n";
 }
 void ConstructProbGraph(string filename, InfGraph& g){
 	//read graph with edge weights
@@ -54,6 +55,7 @@ void ConstructProbGraph(string filename, InfGraph& g){
 		g[tar].indegree ++;
 	}
 	infile.close();
+    cout<<"Graph constructed.\n";
 }
 
 
@@ -69,6 +71,7 @@ void AssignEdgeWeightRandom(InfGraph& g){
 			g[i].neighbors[j].second = prob[r];
 		}
 	}
+    cout<<"Weight assigned.\n";
 }
 void AdjustEdgeWeight(InfGraph& g){
 	for(unsigned i=0; i<g.size(); ++i){
@@ -93,6 +96,7 @@ void AssignEdgeWeight(InfGraph& g){
 				it->second = 1.0 / g[tar].indegree;
 		}
 	}
+    cout<<"Weight assigned.\n";
 }
 void EstimateAPs(int node, InfGraph& g, vector<double>& APs){
 	//IRIE substep

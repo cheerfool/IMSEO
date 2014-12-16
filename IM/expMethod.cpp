@@ -3,9 +3,10 @@ ofstream query_log;
 
 
 void ScoreGreedy(string graphfile, string keywordfile, string queryfile, string graphtype, string inftype){
-	string logfile = "SG_"+graphtype+"_"+inftype+"_"+graphfile+"_"+queryfile+".log";
-	query_log.open(logfile);
-	ofstream ofs(logfile + ".seed");
+	//string logfile = "SG_"+graphtype+"_"+inftype+"_"+graphfile+"_"+queryfile+".log";
+	string logfile=queryfile+"_"+"SG_"+graphtype+"_"+inftype+".log";
+    query_log.open(logfile);
+	ofstream ofs(logfile + ".seed.log");
 	InfGraph g;
 	IRIE_min_stopping_criteria = 0.0001;
 	IRIE_alpha = 0.4;
@@ -42,7 +43,7 @@ void ScoreGreedy(string graphfile, string keywordfile, string queryfile, string 
 		}
 		Query Q;
 		InitialQuery(Q, QueryWords, k);
-		cout << "query initialed" << endl;
+		cout << "query initialized" << endl;
 		if(graphtype == "TopicPP"){
 			AssignTopicAwareEdgeWeight(g, words, Q);
 		}
@@ -89,9 +90,9 @@ void ScoreGreedy(string graphfile, string keywordfile, string queryfile, string 
 }
 
 void PigeonGreedy(string graphfile, string keywordfile, string queryfile, string graphtype, string inftype){
-	string logfile = "PG_"+graphtype+"_"+inftype+"_"+graphfile+"_"+queryfile+".log";
+	string logfile = queryfile+"_"+"PG_"+graphtype+"_"+inftype+".log";
 	query_log.open(logfile);
-	ofstream ofs(logfile + ".seed");
+	ofstream ofs(logfile + ".seed.log");
 	InfGraph g;
 	IRIE_min_stopping_criteria = 0.0001;
 	IRIE_alpha = 0.4;
@@ -175,9 +176,9 @@ void PigeonGreedy(string graphfile, string keywordfile, string queryfile, string
 }
 
 void PICSP(string graphfile, string keywordfile, string queryfile, string graphtype, string inftype){
-	string logfile = "PICSP_"+graphtype+"_"+inftype+"_"+graphfile+"_"+queryfile+".log";
+	string logfile = queryfile+"_"+"PICSP_"+graphtype+"_"+inftype+".log";
 	query_log.open(logfile);
-	ofstream ofs(logfile + ".seed");
+	ofstream ofs(logfile + ".seed.log");
 	InfGraph g;
 	IRIE_min_stopping_criteria = 0.0001;
 	IRIE_alpha = 0.4;
@@ -252,9 +253,9 @@ void PICSP(string graphfile, string keywordfile, string queryfile, string grapht
 }
 
 void PICS(string graphfile, string keywordfile, string queryfile, string graphtype, string inftype){
-	string logfile = "PICS_"+graphtype+"_"+inftype+"_"+graphfile+"_"+queryfile+".log";
+	string logfile = queryfile+"_"+"PICS_"+graphtype+"_"+inftype+".log";
 	query_log.open(logfile);
-	ofstream ofs(logfile + ".seed");
+	ofstream ofs(logfile + ".seed.log");
 	InfGraph g;
 	IRIE_min_stopping_criteria = 0.0001;
 	IRIE_alpha = 0.4;
